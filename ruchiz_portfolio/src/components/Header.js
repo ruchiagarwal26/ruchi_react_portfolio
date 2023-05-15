@@ -23,21 +23,22 @@ const Header = () => {
                     <div className="closed">
                         <Close className='close' onclick={showMenu} />
 
-                    </div>
+                    </div>  
                 <li>
-                    <Link to = '/'> Home</Link>
-                    </li>    
-                <li>
-                    <Link to = '/'> About</Link>
+                    <Link to = '/'> About Me</Link>
                     </li> 
 
                 <li>
-                    <Link to = '/'> Portfolio</Link>
+                    <Link to = '/section'> Portfolio</Link>
                     </li> 
 
                 <li>
-                    <Link to = '/'> Contact</Link>
-                    </li>             
+                    <Link to = '/contact'> Contact</Link>
+                    </li> 
+
+                <li>
+                    <Link to = '/resume'> Resume</Link>
+                    </li>                
 
                 </ul>
             </nav>

@@ -40,6 +40,7 @@ ul{
         cursor: pointer;
         margin-right: 1rem;
         display:none;
+        
     }
 
 }
@@ -85,11 +86,13 @@ ul{
     .changer{
         .menu{
             display: block;
+            color: blue;
         }
     }
     .closed{
         .close{
             display: block;
+            color: grey;
         }
         .header__logo{
             margin-left: .450rem;
@@ -115,6 +118,7 @@ ul{
         .menu{
             display: block;
             margin-right: 0;
+            color: blue;
         }
     }
 } 
