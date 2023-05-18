@@ -11,7 +11,7 @@ export const SectionList = [
         skills: "HTML, CSS"
     },
     {
-        name: "Password-generator.jpg",
+        name: "Password-generator",
         image: Proj1,
         skills: "HTML, CSS"
     },
@@ -23,6 +23,11 @@ export const SectionList = [
     {
         name: "PWA-text-editor",
         image: Proj4,
+        skills: "PWA, CSS"
+    },
+    {
+        name: "Space Travel",
+        image: Proj2,
         skills: "PWA, CSS"
     },
 
