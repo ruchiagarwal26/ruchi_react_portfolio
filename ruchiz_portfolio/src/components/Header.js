@@ -1,17 +1,17 @@
 import React, { useState} from "react";
 import './styles/Header.scss';
-
 import { Close, MenuBookOutlined } from "@material-ui/icons";
 import { Link } from 'react-router-dom';
 //import { createSvgIcon } from '@material-ui/icons';
 
 const Header = () => {
 
+    //const setActive = '/';
+
     const [active, setActive] = useState(false);
 
-    const showMenu = () => {
-        setActive(!active)
-    }
+    const showMenu = () => {setActive(!active)};
+
     return (
         <div className="header">
             <div className="header__logo">
@@ -20,10 +20,7 @@ const Header = () => {
 
             <nav>
                 <ul>
-                    <div className="closed">
-                        <Close className='close' onclick={showMenu} />
-
-                    </div>  
+                   
                 <li>
                     <Link to = '/'> About Me</Link>
                     </li> 

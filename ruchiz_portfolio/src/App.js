@@ -7,21 +7,8 @@ import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Section from "./components/Section";
 import Contact from "./components/Contact";
-//About Me, Portfolio, Contact, and Resume
-
-// function App() {
-//   return (
-//     <div className="App">
-//        <Header/>
-//        <Main/>
-//        <Section/>
-//        <Contact/>
-       
-//     </div>
-//   );
-// }
-
-// export default App;
+import Resume from "./components/Resume";
+import SectionDisplay from "./components/SectionDisplay"
 
 function App() {
   return (
@@ -31,7 +18,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/section" element={<Section />} />
+          <Route path="/sectionId/:id" element={<SectionDisplay />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer/>
       </Router>

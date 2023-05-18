@@ -1,5 +1,6 @@
 import React from "react";
 import { Twitter, LinkedIn, Facebook } from "@material-ui/icons";
+import  "./styles/Footer.scss"
 
 const Footer =() => {
     return(

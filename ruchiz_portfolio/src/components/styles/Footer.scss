@@ -1,0 +1,25 @@
+.icons {
+   
+    background: #21325e;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    margin-top: 200px;
+  }
+  
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .icons p {
+    color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .icons svg {
+      font-size: 50px;
+    }
+  }

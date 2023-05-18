@@ -14,15 +14,7 @@ const Main =() => {
                             I am an aspiring full stack developer
                         </h1>
                         <p> This is my  portfolio</p>
-                        <div className="icons">
-                            <Twitter className="icon"/>
-                            <LinkedIn className="icon"/>
-                            <Facebook className="icon"/>
-                        </div>
-
-                        <div className="buttons">
-                            <button>It's Me</button>
-                        </div>
+                   
                     </div>
                 </div>
                 <div className="main__img">
