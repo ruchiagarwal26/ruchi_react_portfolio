@@ -1,3 +1,53 @@
+# Portfolio with React
+
+Github Link :
+
+Screen Shot:
+
+##Description:
+```md
+This is my single-page application portfolio
+
+WHEN I load the portfolio
+
+THEN I am presented with a page containing :
+        a header : Each page has a static header 
+                   That has heading/my Name to my portfolio "Ruchiz Portfolio"
+                   Then it has navigation bar with clickable links to other sections on the page 
+                   The clickable links on the header are: About Me, Portfolio, Contact, Resume
+                   
+        a section : It is presented with my latest avatar on the right and a brief About Me
+        
+        a footer : Each page has a static footer with icons to external websites like Twitter, LinkedIn and Facebook
+
+WHEN application starts, About Me is the default page. This page contains:
+        Profile Picture/Avatar : My recent Avatar on the right
+        Short Bio : Short introductory lines about me  
+        has regular header and footer    
+
+When clicked on Portfolio, then the page is presented with:
+        Pictorial clickable presentation on my Web Development work
+        Each project work is clickable 
+        on click takes to the page for that project
+
+WHEN clicked on Contact Section, it displays a Contact Me form.
+        this form has three input areas. Name, Email and Message
+        All the fields are required to be filled. 
+        Upon hitting Suybmit button, if any link was missing, there will be an error message
+        Error message will alert user that none of the fields can be blank
+        The validation is also on the email. 
+        when user starts typing, will immediately prompt to enter valid email until it is a valid email
+
+WHEN clicked on Resume section, I am presented with a message:
+        Ruchi's Resume
+        Further are listed the list of languages I am proficient in
+        Then is presented clickable image that takes to my resume
+
+Finaly each section has a footer, that has icons to Twitter, linkedin and facebook pages
+
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
