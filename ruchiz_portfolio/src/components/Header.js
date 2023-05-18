@@ -8,9 +8,18 @@ const Header = () => {
 
     //const setActive = '/';
 
-    const [active, setActive] = useState(false);
+    const [isFocused, setIsFocused] = useState(false);
+    const handleOnClick = (e) => {
+        console.log(e);
+    }
 
-    const showMenu = () => {setActive(!active)};
+    const linksArr = [
+        { to: "/" , text: "About Me"},
+        { to: "/section" , text: "Portfolio"},
+        { to: "/contact" , text: "Contact"},
+        { to: "/resume" , text: "Resume"}
+    ]
+
 
     return (
         <div className="header">
@@ -20,12 +29,18 @@ const Header = () => {
 
             <nav>
                 <ul>
-                   
-                <li>
-                    <Link to = '/'> About Me</Link>
-                    </li> 
 
-                <li>
+                    {linksArr.map(({to, text}, index) => (
+
+                    <li>
+                    <Link onClick={handleOnClick} to={to}>{text}</Link>
+                    </li>
+
+                    ))}
+                   
+                 
+
+                {/* <li>
                     <Link to = '/section'> Portfolio</Link>
                     </li> 
 
@@ -35,15 +50,12 @@ const Header = () => {
 
                 <li>
                     <Link to = '/resume'> Resume</Link>
-                    </li>                
+                    </li>                 */}
 
                 </ul>
             </nav>
 
-            <div className="changer">
-                {/* to add book icon */}
-                <MenuBookOutlined className="menu" onclick={showMenu} />
-            </div>
+          
 
         </div>
     )

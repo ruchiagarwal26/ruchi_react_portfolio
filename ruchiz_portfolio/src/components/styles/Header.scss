@@ -5,10 +5,12 @@
     position: absolute;
     z-index: 1;
     height: 50px;
-    padding: 2rem;
-    
-    
+    padding: 2rem; 
 }
+
+.header li:focus {
+    background-color: red;
+} 
 
 .header__logo{
     margin-left: 20rem;

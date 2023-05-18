@@ -11,7 +11,7 @@ const Section =() => {
           <div className="sectionList">
             {SectionList.map((section, idx) => {
               return (
-                <SectionItem id={idx} name={section.name} image={section.image} />
+                <SectionItem id={idx} name={section.name} image={section.image} gitlink={section.gitlink}/>
               );
             })}
           </div>

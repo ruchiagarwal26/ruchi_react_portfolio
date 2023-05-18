@@ -14,7 +14,12 @@ const Main =() => {
                             I am an aspiring full stack developer
                         </h1>
                         <p> This is my  portfolio</p>
-                   
+                        <p> I am currently pursuing Full Stack Development Boot Camp from Rutgers</p>
+                        <p> and getting to learn front end functionalities with
+                            learning HTML, CSS, JS, REACT, Express, SQL and NoSql
+                        </p>
+                        <p> I am a Data Engineer and worked on 
+                            Dataware hosing Solutions, Architecture and  end to end processes</p>
                     </div>
                 </div>
                 <div className="main__img">

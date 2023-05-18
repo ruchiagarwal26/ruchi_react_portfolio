@@ -3,6 +3,7 @@ import resume from "./assets/Resume_Ruchi.pdf"
 import "./styles/Resume.scss";
 import pdfImage from "./assets/pdf.png";
 
+
 const Resume =() => {
     const proficiencies = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL'];
 
