@@ -18,16 +18,16 @@ THEN I am presented with a page containing :
                    Then it has navigation bar with clickable links to other sections on the page 
                    The clickable links on the header are: About Me, Portfolio, Contact, Resume
                    
-       ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/1bf0c6ee-5cf8-4826-a51c-5473d39d90f6)
+ ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/1bf0c6ee-5cf8-4826-a51c-5473d39d90f6)
             
                    
         a section : It is presented with my latest avatar on the right and a brief About Me
         
-        ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/d2643546-775d-4245-a673-8a3694ce68c3)
+ ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/d2643546-775d-4245-a673-8a3694ce68c3)
         
         a footer : Each page has a static footer with icons to external websites like Twitter, LinkedIn and Facebook
         
-        ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/415bc412-2d97-4553-858d-cb308cf621f8)
+ ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/415bc412-2d97-4553-858d-cb308cf621f8)
 
 
 WHEN application starts, About Me is the default page. This page contains:
@@ -40,7 +40,7 @@ When clicked on Portfolio, then the page is presented with:
         Each project work is clickable 
         on click takes to the page for that project
         
-        ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/1e675957-c08e-4bfd-a5a7-ea8a7b347e86)
+![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/1e675957-c08e-4bfd-a5a7-ea8a7b347e86)
 
 
 WHEN clicked on Contact Section, it displays a Contact Me form.
@@ -51,7 +51,7 @@ WHEN clicked on Contact Section, it displays a Contact Me form.
         The validation is also on the email. 
         when user starts typing, will immediately prompt to enter valid email until it is a valid email
         
-      ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/e68e35cb-f3c3-480d-9c9c-a43ca1654600)
+![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/e68e35cb-f3c3-480d-9c9c-a43ca1654600)
   
         
 WHEN clicked on Resume section, I am presented with a message:
@@ -59,7 +59,7 @@ WHEN clicked on Resume section, I am presented with a message:
         Further are listed the list of languages I am proficient in
         Then is presented clickable image that takes to my resume
         
-        ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/647f33f4-8447-451e-8ef0-eef8c67db03c)
+![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/647f33f4-8447-451e-8ef0-eef8c67db03c)
 
 
 Finaly each section has a footer, that has icons to Twitter, linkedin and facebook pages
