@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c90a15f8.css",
+    "main.js": "/static/js/main.7de59fd8.js",
+    "static/js/787.b3660a3f.chunk.js": "/static/js/787.b3660a3f.chunk.js",
+    "static/media/Resume_Ruchi.pdf": "/static/media/Resume_Ruchi.2dc3b88fd279afdd5919.pdf",
+    "static/media/avatar-0.png": "/static/media/avatar-0.423eaec69d98626a834b.png",
+    "static/media/Ruchiz-trip-to-future-planner.jpg": "/static/media/Ruchiz-trip-to-future-planner.a201e731b8bb651ed7b6.jpg",
+    "static/media/Ruchiz-quiz-website.jpg": "/static/media/Ruchiz-quiz-website.c3ed8115395480d0fb9c.jpg",
+    "static/media/PWA-text-editor.jpg": "/static/media/PWA-text-editor.23ab60ccc016e34bc838.jpg",
+    "static/media/Password-generator.jpg": "/static/media/Password-generator.e89dacffe4931a478de1.jpg",
+    "static/media/Ruchiz-Note-Taker.jpg": "/static/media/Ruchiz-Note-Taker.b3cdbcef0c57168a9234.jpg",
+    "static/media/workday_planner.jpg": "/static/media/workday_planner.ee643eb6be121df9eb9c.jpg",
+    "index.html": "/index.html",
+    "main.c90a15f8.css.map": "/static/css/main.c90a15f8.css.map",
+    "main.7de59fd8.js.map": "/static/js/main.7de59fd8.js.map",
+    "787.b3660a3f.chunk.js.map": "/static/js/787.b3660a3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90a15f8.css",
+    "static/js/main.7de59fd8.js"
+  ]
+}
