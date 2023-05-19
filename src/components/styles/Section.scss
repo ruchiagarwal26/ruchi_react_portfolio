@@ -1,0 +1,87 @@
+
+
+.sections {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: wheat;
+    position: relative;
+    padding-top: 30px;
+
+    &::before,&::after {
+        content: '';
+        position: absolute;
+        left: 0;
+    }
+
+  }
+  .sections .sectionTitle {
+    text-align: center;
+    color: olive;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  
+  .sectionList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .sectionItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+  }
+  .sectionItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .sectionItem .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    h1 {  
+    font-size: 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .sectionList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .sectionList {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .sectionList {
+      width: 100%;
+    }
+    .sectionItem {
+      width: 300px;
+      height: 300px;
+    }
+  }

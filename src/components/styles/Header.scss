@@ -1,0 +1,132 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 50px;
+    padding: 2rem; 
+}
+
+.active {
+    background-color:greenyellow;
+} 
+
+.header__logo{
+    margin-left: 20rem;
+
+}
+
+.navbar{
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    li{
+        list-style: none;
+        margin: 1.5rem;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+
+            &:hover{
+                border-bottom: 2px solid blue;
+            }
+        }
+    }
+}
+
+.changer {
+    display: flex;
+    margin-right : 1.5rem;
+    .menu{
+        cursor: pointer;
+        margin-right: 1rem;
+        display:none;
+        
+    }
+
+}
+
+.closed {.close {
+    display: none;
+}
+}
+
+
+@media (max-width:900px){
+    .header{
+        justify-content: space-between;
+    }
+    .navbar{
+        display: none;
+        transition: 1s ease;
+    }
+    .navbar active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        inset: 0;
+        background-color: wheat;
+        transition: 1400ms ease;
+    }
+
+    ul {
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        li{
+            margin-block: 2rem;
+            a{
+                font-size: 20px;
+                color: black;
+
+            }
+        }
+    }
+
+    .changer{
+        .menu{
+            display: block;
+            color: blue;
+        }
+    }
+    .closed{
+        .close{
+            display: block;
+            color: grey;
+        }
+        .header__logo{
+            margin-left: .450rem;
+        }
+    }
+
+    @media(max-width:350px) {
+    ul {
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 1rem;
+        li{
+            margin-block: 2rem;
+            a{
+                font-size: 20px;
+                color: black;
+
+            }
+        }
+    }
+    .changer{
+        .menu{
+            display: block;
+            margin-right: 0;
+            color: blue;
+        }
+    }
+} 
+}
