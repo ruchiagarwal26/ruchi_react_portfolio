@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/section" element={<Section />} />
+          <Route path="/portfolio" element={<Section />} />
           <Route path="/sectionId/:id" element={<SectionDisplay />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />

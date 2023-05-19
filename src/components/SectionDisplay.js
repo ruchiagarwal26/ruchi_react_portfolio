@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import {SectionList} from "../components/SectionList";
-
+import "./styles/SectionDisplay.scss";
 
 function SectionDisplay() {
     const { id } = useParams();

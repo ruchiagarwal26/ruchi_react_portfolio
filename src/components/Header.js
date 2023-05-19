@@ -1,26 +1,36 @@
-import React, { useState} from "react";
+import React, { useEffect, useRef } from "react";
 import './styles/Header.scss';
-import { Close, MenuBookOutlined } from "@material-ui/icons";
 import { Link } from 'react-router-dom';
 //import { createSvgIcon } from '@material-ui/icons';
 
 const Header = () => {
+const ulRef=useRef(null);
+// const liRef=useRef(null);
 
-    //const setActive = '/';
+// useEffect(() => {
+// console.log(window.location.href)
+// console.log(liRef.current)
+// }, [])
 
-    const [isFocused, setIsFocused] = useState(false);
+
     const handleOnClick = (e) => {
-        console.log(e);
+        ulRef.current.childNodes.forEach((li) => (
+            li.classList.contains("active") && li.classList.remove("active")
+        ))
+
+        e.target.parentNode.classList.add("active")
     }
+
+
 
     const linksArr = [
         { to: "/" , text: "About Me"},
-        { to: "/section" , text: "Portfolio"},
+        { to: "/portfolio" , text: "Portfolio"},
         { to: "/contact" , text: "Contact"},
         { to: "/resume" , text: "Resume"}
-    ]
+    ];
 
-
+    
     return (
         <div className="header">
             <div className="header__logo">
@@ -28,7 +38,7 @@ const Header = () => {
             </div>
 
             <nav>
-                <ul>
+                <ul ref={ulRef}>
 
                     {linksArr.map(({to, text}, index) => (
 
@@ -37,28 +47,12 @@ const Header = () => {
                     </li>
 
                     ))}
-                   
-                 
 
-                {/* <li>
-                    <Link to = '/section'> Portfolio</Link>
-                    </li> 
-
-                <li>
-                    <Link to = '/contact'> Contact</Link>
-                    </li> 
-
-                <li>
-                    <Link to = '/resume'> Resume</Link>
-                    </li>                 */}
 
                 </ul>
-            </nav>
-
-          
-
+             </nav>
         </div>
-    )
-}
+     )
+ }
 
 export default Header

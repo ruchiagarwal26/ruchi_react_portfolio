@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Main.scss'
-import { Twitter, LinkedIn, Facebook } from "@material-ui/icons";
+//import { Twitter, LinkedIn, Facebook } from "@material-ui/icons";
 import ra from './assets/avatar-0.png'
 
 const Main =() => {
@@ -19,7 +19,7 @@ const Main =() => {
                             learning HTML, CSS, JS, REACT, Express, SQL and NoSql
                         </p>
                         <p> I am a Data Engineer and worked on 
-                            Dataware hosing Solutions, Architecture and  end to end processes</p>
+                            Dataware housing Solutions, Architecture and  end to end processes</p>
                     </div>
                 </div>
                 <div className="main__img">

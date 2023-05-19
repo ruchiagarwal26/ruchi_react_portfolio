@@ -1,8 +1,9 @@
 .Resume_section {
-    min-height: 100vh;
+    min-height: 80vh;
     max-width: 100%;
     background-color: wheat;
     position: relative;
+    padding-left: 20px;
 
     &::before,&::after {
         content: '';

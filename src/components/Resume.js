@@ -5,7 +5,7 @@ import pdfImage from "./assets/pdf.png";
 
 
 const Resume =() => {
-    const proficiencies = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL'];
+    const proficiencies = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'SQL', 'Express' , 'React'];
 
     return (
         <div className= "Resume_section">

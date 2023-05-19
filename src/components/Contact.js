@@ -1,13 +1,7 @@
-import React, { useReducer, useState }from "react";
+import React, { useState }from "react";
 import './styles/Contact.scss';
 import validator from 'validator';
 
-const formReducer = (state, event) => {
-    return {
-      ...state,
-      [event.name]: event.value
-    }
-   }
 
 function Contact() {
 
@@ -21,17 +15,12 @@ function Contact() {
       setEmailError('Enter valid Email!')
     }
     }
-    const [formData, setFormData] = useReducer(formReducer, {});
-    const [submitting, setSubmitting] = useState(false);
-    const handleSubmit = event => {
-    event.preventDefault();
-    setSubmitting(true);
- }
+  
     return(
         <div className="contact">
             <div className="inputs">
             <h1> Contact Me </h1>
-                <form onSubmit={handleSubmit}>
+                <form >
                   <fieldset>
                     <label>
                         <input type="text" placeholder="Name"  name="name" required/>
