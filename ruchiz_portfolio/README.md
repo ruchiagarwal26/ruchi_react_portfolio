@@ -5,7 +5,7 @@ Github Link :
 Screen Shot:
 
 ##Description:
-```md
+
 This is my single-page application portfolio
 
 ![image](https://github.com/ruchiagarwal26/ruchi_react_portfolio/assets/115508901/b756ffbc-888c-4bb5-bf4d-257fe8dd443a)
@@ -63,8 +63,6 @@ WHEN clicked on Resume section, I am presented with a message:
 
 
 Finaly each section has a footer, that has icons to Twitter, linkedin and facebook pages
-
-```
 
 
 # Getting Started with Create React App
